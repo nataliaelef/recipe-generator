@@ -1,7 +1,15 @@
 import React from 'react';
 
 const Recipe = ({ ingredients, showRecipe }) => {
-  const instructions = ['boil', 'steam', 'fry', 'mash', 'reduce', 'stir'];
+  const instructions = [
+    'Boil',
+    'Steam',
+    'Fry',
+    'Mash',
+    'Reduce',
+    'Stir',
+    'Grill'
+  ];
   return (
     <div>
       {showRecipe && (

@@ -4,6 +4,7 @@ import Recipe from './components/Recipe';
 import GenerateRecipe from './components/GenerateButtonRecipe';
 import IngredientList from './components/IngredientList';
 import ResetButton from './components/ResetButton';
+import './App.css';
 
 class App extends React.Component {
   state = {
